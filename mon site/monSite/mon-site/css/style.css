@@ -1,0 +1,116 @@
+img.paysage {
+    width: 200px;
+}
+
+img.images {
+    width: 300px;
+    height: 200px;
+    transition: transform 0.3s;
+}
+
+img.histoire {
+    display: inline-block;
+    width: 500px;
+    height: 350px;
+    transition: transform 0.3s;
+    padding: 60px;
+}
+
+img.affiche {
+    width: 1000px;
+    height: 700px;
+    transition: transform 0.3s;
+    padding: 170px;
+    display: inline-block;
+}
+
+img.histoire:hover {
+    transform: scale(1.30);
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+body {
+    background-image: url(images/fond.jpg);
+    background-size: contain;
+    background-position: contain;
+    background-repeat: repeat;
+    image-rendering: crisp-edges;
+    image-rendering: webkit-optimize-contrast;
+}
+
+figure {
+    display: inline-block;
+    text-align: center;
+}
+
+section {
+    background-color: black;
+    border: 5px solid #e06ad2;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+figcaption {
+    font-family: arial;
+    font-weight: bold;
+    padding: 4px;
+    border: 5px solid #e06ad2;
+    border-radius: 10px;
+    background-color: black;
+    color: #e06ad2;
+}
+
+header.site-header {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    font-family: arial;
+    border: 5px solid #e06ad2;
+    border-radius: 20px;
+    color: #e06ad2;
+
+}
+
+h2 {
+    background-color: black;
+    text-align: center;
+    border: 5px solid #e06ad2;
+    border-radius: 15px;
+    font-family: arial;
+    color: #e06ad2;
+}
+
+p {
+    text-align: center;
+    color: #e06ad2;
+}
+
+li {
+    color: #e06ad2;
+}
+
+header nav a {
+    border: 3px solid black;
+    margin: 5px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #e06ad2;
+    color: black;
+}
+
+a:hover {
+    background-color: #e06ad2;
+    color: black;
+    transform: scale(1.1);
+}
+
+h2 a {
+    background-color: black;
+    text-align: center;
+    font-family: arial;
+    color: #e06ad2;
+}
